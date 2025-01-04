@@ -3,10 +3,11 @@
 # **Project Name: CIDMessageHunter**
 
 **The Ultimate Advanced Steganography Tool for Secure Hidden Messaging!**
+![Overview](overview1.png)
 
 ---
 
-### **Introduction**
+### **Introduction**   
 
 Ever wanted to send a secret message that’s so well hidden, no one will know it’s there? **CIDMessageHunter** is here to do just that! This tool lets you hide messages inside images, making them look like regular pictures. Only the intended recipient, armed with the right files and keys, will be able to uncover the hidden message.
 
@@ -16,7 +17,7 @@ Ever wanted to send a secret message that’s so well hidden, no one will know i
 
 **CIDMessageHunter** is a stealthy, advanced **Steganography** tool inspired by a memorable episode of *CID* (a popular crime show). In this episode, a criminal hides bomb information inside a **pendrive** and stores it behind an image. The only way to decode the information was by using that pendrive. This inspired me to create **CIDMessageHunter**.
 
-**CIDMessageHunter** allows you to:
+**CIDMessageHunter** allows you to: 
 
 - **Embed secret messages** into images, making them look just like regular pictures.
 - Only the **authorized recipient**—who has the right decryption keys—will be able to extract and read the hidden message.
@@ -27,11 +28,11 @@ Ever wanted to send a secret message that’s so well hidden, no one will know i
 
 **CIDMessageHunter** uses a multi-layered encryption and decryption system to ensure your hidden message stays private. Here’s how it works:
 
-1. **Embedding the Message**: 
+1. **Embedding the Message**: ![Overview](overview1.png)
    - Your secret message is encrypted and compressed.
    - It's then hidden within the image’s pixels using advanced **steganography** techniques.
    
-2. **Decoding the Message**: 
+2. **Decoding the Message**: ![Overview](overview2.png)
    - To extract the message, the recipient must have access to multiple secret files and keys:
      - **Private Key File**: The private key is encrypted and stored in a separate file.
      - **Password**: The private key is encrypted with a password for extra security.
@@ -54,7 +55,7 @@ Now, I like to think that without the right keys and the file containing the pri
 ### **Features**
 
 - **Advanced Encryption**: AES-GCM encryption for both message and private key ensures top-notch security.
-- **Multi-layered Decryption**: Multiple keys (private key, password, and super key) are needed to decode the message, adding extra layers of protection.
+- **Multi-layered Decryption**: Multiple keys (private key, password, and super key) are needed to decode the message, adding extra layers of protection. ![Overview](overview3.png)
 - **Image Steganography**: Hide your message inside an image so it looks like an ordinary picture to anyone else.
 - **Compression & Encryption**: Your message is compressed and encrypted, making it harder to detect or decode.
 - **Secure Communication**: Ideal for sending confidential messages over untrusted channels while keeping the message hidden in plain sight.
@@ -79,7 +80,7 @@ To extract the hidden message:
 - You need the image that contains the hidden message.
 - You need the encrypted private key file.
 - You must have the password and the **super key** to decrypt the private key.
-
+![Overview](overview4.png)
 After these steps, **CIDMessageHunter** will extract, decrypt, decompress, and reveal the original secret message!
 
 ---
